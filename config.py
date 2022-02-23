@@ -13,8 +13,8 @@ API_HASH = getenv("API_HASH")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5023980479").split()))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001753409548"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -24,11 +24,11 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-if str(getenv("SUPPORT_CHANNEL")).strip() == "":
+if str(getenv("SUPPORT_CHANNEL")).strip() == "Pubglovers_Shayri_lovers":
     SUPPORT_CHANNEL = None
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
-if str(getenv("SUPPORT_GROUP")).strip() == "":
+if str(getenv("SUPPORT_GROUP")).strip() == "Kristy_xd":
     SUPPORT_GROUP = None
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
