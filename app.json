@@ -1,7 +1,7 @@
 {
-  "name": "ALISHA MUSIC",
+  "name": "CANDIEECRUSHXMUSIC",
   "description": "ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ғᴜɴᴄᴛɪᴏɴs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴘʏ-ᴛɢᴄᴀʟʟs.",
-  "logo": "https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
+  "logo": "https://telegra.ph/file/a0ff40ef12d138fc42d6d.jpg",
   "keywords": [
   "python3",
   "telegram"
@@ -35,17 +35,17 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "QueenAlishaRobot",
+      "value": "CandieeCrushXMusic",
       "required": true
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "Pubglovers_Shayri_lovers",
+      "value": "Kristy_xd",
       "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "AlishaSupport",
+      "value": "Kristy_xd",
       "required": false
     },
     "OWNER_ID": {
